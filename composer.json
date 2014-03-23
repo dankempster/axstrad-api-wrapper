@@ -1,0 +1,25 @@
+{
+    "name": "axstrad/api-wrapper",
+    "description": "PHP wrapper for trakt.tv API",
+    "keywords": ["api wrapper"],
+    "homepage": "https://github.com/dankempster/axstrad-api-wrapper",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dan Kempster",
+            "email": "dev@dankempster.co.uk",
+            "homepage": "http://dankempster.co.uk/"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "kriswallsmith/buzz": ">=0.6",
+        "symfony/options-resolver": ">=2.1"
+    },
+    "autoload": {
+        "psr-0": {
+            "Axstrad": "src/"
+        }
+    }
+}
